@@ -1,0 +1,13 @@
+.skills{
+    padding-top:100px;
+    padding-bottom:14%
+}
+.skills{padding-bottom:10%}
+.skills h1{text-align:center}
+.skills .row h4{margin-top:10%}
+@media screen and (max-width: 768px){  
+    .skills .row .col-md-5{width:90%}
+}
+.skills h1{
+    border-bottom:20px  groove;border-radius:20px;border-color:#089eca;width:max-content;margin:0 auto;text-align:left
+}
