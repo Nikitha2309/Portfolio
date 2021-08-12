@@ -8,15 +8,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport"
         content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-    <link href="./assets/favicon/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16" />
-    <link href="./assets/favicon/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32" />
     <link rel="manifest" href="assets/favicon/site.webmanifest"/>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/favicon/site.webmanifest">
-    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#089eca">
     <meta name="msapplication-TileColor" content="#089eca">
     <meta name="theme-color" content="#089eca" />
     <meta name="application-name" content="MeQudusayo">
@@ -26,9 +20,6 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
     <meta name="viewport" content="width=device-width" />
     <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0" />
@@ -61,6 +52,7 @@
                 <li data-menuanchor="About"><a class="closer" href="#About">About Me</a></li>
                 <li data-menuanchor="Skills"><a class="closer" href="#Skills">Skills</a></li>
                 <li data-menuanchor="Works"><a class="closer" href="#Works">Works</a></li>
+                <li data-menuanchor="Resume"><a class="closer" href="#Resume">Resume</a></li>
                 <li data-menuanchor="Contact"><a class="closer" href="#Contact">Contact</a></li>
                 <li class="footer">&copy Nikitha Reddy</li>
             </ul>
@@ -359,6 +351,13 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="section pp-scrollable myresume" id="section1">
+            <div class="myresumediv">
+                <!-- <embed class="myresume_cont" src="./assets/Resume_Nikitha_Reddy.pdf" type="application/pdf" width="100%" height="700px" /> -->
+                <!-- <embed class="myresume_cont" src="https://drive.google.com/file/d/1ranckoCLVmDtWf8YZBnzC84WNCdI517J/view?usp=sharing&embedded=true" type="application/pdf" width="100%" height="700px" /> -->
+                <iframe src="./assets/Resume_Nikitha_Reddy.pdf" style="width:100%; height:700px;" frameborder="0"></iframe>
             </div>
         </div>
 
@@ -402,7 +401,7 @@
                         </span></p>
                 </div>
                 <div class="col-md-5 m-auto">
-                    <p>Send Quick message to connect with me: </p>
+                    <p><b>Send Quick message to connect with me: </b></p>
                     <form action="https://script.google.com/macros/s/AKfycbxARibETkvRDdoeYYhvKNm7fZbMF5ytMJ8rZCEyj6wExp7AumvDqTkyleXKEjwe1skXFw/exec" data-netlify="true" method="POST">
                         <input class="form_input" placeholder="Message Nikitha Reddy" name="name" type="text">
                         <input class="form_input" name="Subject" placeholder="Subject" type="text">
@@ -428,8 +427,8 @@
                 direction: 'vertical',
                 menu: '#menu',
                 verticalCentered: false,
-                anchors: ['Home', 'About', 'Skills', 'Works', 'Contact'],
-                sectionsColor: ['#f3f3f3', '#f8f8f8', '#f3f3f3', '#d8d8d8', '#f3f3f3'],
+                anchors: ['Home', 'About', 'Skills', 'Works', 'Resume', 'Contact'],
+                sectionsColor: ['#f3f3f3', '#f8f8f8', '#f3f3f3', '#d8d8d8', '#f8f8f8',  '#f3f3f3'],
                 navigation: {
                     'position': 'left',
                     'textColor': '#000',
