@@ -1,4 +1,4 @@
-const words = ["Passionate", "Committed", "Dedicated", "Full-Stack"];
+const words = ["Passionate Coder", "Full Stack Developer", "Multitasker", "Quick Learner"];
 let i = 0;
 let timer;
 
