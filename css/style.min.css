@@ -118,6 +118,8 @@ body{
 @keyframes blink{to{opacity:0}}
 .skills{padding-bottom:10%}
 .skills h1{text-align:center}
+.exp h1{text-align: center}
+.edu h1{text-align: center}
 .skills .row h4{margin-top:10%}
 .myresume{min-height: 100vh; padding: 60px;}
 .myresumediv{padding:30px;margin-top: 30px;}
@@ -180,7 +182,7 @@ body{
     .works .container .cardd .aboutCard{padding:0 10px;text-align:center}
     .works .container .cardd .cardMedia{margin-top:7%;display:flex;width:100%;justify-content:space-around}
 }
-.works h1,.skills h1,.contact h1{
+.works h1,.skills h1,.contact h1, .exp h1, .edu h1{
     border-bottom:20px  groove;border-radius:20px;border-color:#089eca;width:max-content;margin:0 auto;text-align:left
 }
 .about h1{border-bottom:10px groove;width:90%;margin:5% 0;text-align:left}
