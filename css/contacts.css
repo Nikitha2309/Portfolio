@@ -1,0 +1,42 @@
+.contact{
+    font-family: 'Roboto';
+    font-size: 15px;
+    min-height:100vh;
+    padding-top:100px;
+    padding-bottom:10%;
+    background-image:url("../assets/images/contact-ornament.png");
+    background-position:50% 100%;background-repeat:no-repeat;
+    background-size:contain;
+}
+.contact h1{text-align:center}
+.contact .row{width:85%;margin:0 auto}
+.contact .row .col-md-5{margin:0 auto}
+.contact .row .texts .cimg{margin-right:5px;width:70%}
+.contact .row .texts .media{font-size:larger}
+.contact .row .texts .media i{cursor:pointer;border:1px solid #089eca;color:#444;border-radius:100%;padding:15px}
+.contact .row .texts .media i:hover{background-color:#089eca;color:#ffffff}
+.contact .row form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center}
+    .contact .row form input,.contact .row form textarea{
+        width:95%;
+        height:50%;
+        margin:5% auto;
+        margin-bottom: 20px;
+        border-radius:5px;
+        border:1px solid #999999;
+        outline:none;
+        padding:0px 0%}
+    .contact .row form input{height:30px;
+        /* padding:0px 0%; */
+        margin-bottom: 20px;}
+    .contact .row form input::placeholder{color:#777777}
+    .contact .row form textarea::placeholder{color:#777777}
+    .contact .row form button{display:block;width:100%;margin:2% auto;border-radius:7px;color:#000000;background-color:#089eca;outline:none;border:none;padding:10px 0;font-size:large;text-transform:uppercase;font-family:Nunito;letter-spacing:5px;cursor:pointer;box-shadow:1px 3px 5px rgba(0,0,0,0.4);transition:transform 0.1s linear}
+    .contact .row form button:hover{transform:translateY(-5%)}
+    .contact h1, .exp h1, .edu h1{
+        border-bottom:20px  groove;border-radius:20px;border-color:#089eca;width:max-content;margin:0 auto;text-align:left
+    }
+    .contact h1{margin-bottom:3%}
