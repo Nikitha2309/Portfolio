@@ -119,6 +119,9 @@ body{
 .skills{padding-bottom:10%}
 .skills h1{text-align:center}
 .skills .row h4{margin-top:10%}
+.myresume{min-height: 100vh; padding: 60px;}
+.myresumediv{padding:30px;margin-top: 30px;}
+/* .resume .resume_cont {margin: 10px;} */
 .contact{
     min-height:100vh;
     padding-top:100px;
