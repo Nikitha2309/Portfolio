@@ -33,7 +33,7 @@
   .navigation-bar a {
     display: block;
     padding: 0 15px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-decoration: none;
     transition: 0.4s;
     font-weight: bolder;
