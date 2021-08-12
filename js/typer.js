@@ -39,7 +39,7 @@ function deletingEffect() {
 typingEffect();
 
 function typingQudusayo() {
-	let qudusayo = ['Q', 'U', 'D', 'U', 'S', 'A', 'Y', 'O'];
+	let qudusayo = ['N', 'I', 'K', 'I', 'T', 'H', 'A'];
 	var typeQue = function() {
 		if (qudusayo.length > 0) {
 			document.getElementById('qudusayo').innerHTML += qudusayo.shift();
