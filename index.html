@@ -38,17 +38,18 @@
     <meta charset=" UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/jquery.pagepiling.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/style.min.css">
-    <title>Qudusayo</title>
+    <title>Nikitha</title>
 </head>
 
 <body>
     <header class="navigation-bar">
-        <h2>Qudusayo</h2>
+        <h2>Nikitha Reddy</h2>
         <input type="checkbox" class="switcher" id="opener">
         <label class="open label" for="opener">
             <i class="fa fa-bars"></i>
@@ -61,7 +62,7 @@
                 <li data-menuanchor="Skills"><a class="closer" href="#Skills">Skills</a></li>
                 <li data-menuanchor="Works"><a class="closer" href="#Works">Works</a></li>
                 <li data-menuanchor="Contact"><a class="closer" href="#Contact">Contact</a></li>
-                <li class="footer">&copy Qudusayo 2020</li>
+                <li class="footer">&copy Nikitha Reddy</li>
             </ul>
 
 
@@ -73,15 +74,31 @@
     <div id="pagepiling">
         <div class="section pp-scrollable home" id="section1">
             <h1 class="header">
-                Hi there! <span class="yellow">👋</span>,<br />
+                Hi there! <img class="himg" src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"/> ,<br />
                 <span id="bigger">
                     I'm Nikitha Reddy,<br />
                 </span>
             </h1>
+            <!-- <h1 class="header">Hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"/>, <br/>
+                <span id="bigger">
+                    I'm Nikitha Reddy,<br />
+                </span>
+            </h1> -->
             <div class="flex">
                 <h1 class="typer">A <span id="word"></span><span class="spaner blink">|</span> Developer</h1>
             </div>
-            <img src="./assets/images/home-image.png" alt="">
+            <div class="conts">
+                <p><span class="media">
+                    <a href="mailto:nikithareddy2309@gmail.com"><img class="cimg" src="https://img.icons8.com/fluent/48/000000/gmail.png"  width="100%"></a>
+                    <a href="https://www.linkedin.com/in/nikitha2309/"><img class="cimg" src="https://img.icons8.com/fluent/48/000000/linkedin.png"  width="100%"></a>
+                    <a href="https://github.com/Nikitha2309"><img class="cimg" src="https://img.icons8.com/fluent/48/000000/github.png"  width="100%"></a>
+                    <a href="https://api.whatsapp.com/send?phone=+919848670705"><img class="cimg" src="https://img.icons8.com/fluent/48/000000/whatsapp.png"  width="100%"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100039995852083"><img class="cimg" src="https://img.icons8.com/fluent/48/000000/facebook-new.png"  width="100%"></a>
+                    <a href="https://www.instagram.com/nikitha_2309/"><img class="cimg"src="https://img.icons8.com/fluent/48/000000/instagram-new.png"  width="100%"></a>
+                    <a href="https://twitter.com/Nikitha2309"><img  class="cimg" src="https://img.icons8.com/fluent/48/000000/twitter.png"  width="100%"></a>
+                </span></p>
+            </div>
+            <img class="mimg" src="./assets/images/home-image.png" alt="">
         </div>
 
         <div class="section pp-scrollable about" id="section2">
@@ -284,6 +301,26 @@
                 </div>
             </div>
             <div class="container">
+                <h3 class="carddTitle">Parallax Website</h3>
+                <div class="cardd">
+                    <img class='cardImg ord2' src="./assets/images/Demo.gif" alt="Logo" />
+                    <div class='aboutCard ord1'>
+                        A beautiful Parallax Website created using HTML, CSS which have parallax scrolling effect.
+                        <h4>HTML - CSS</h4>
+                        <div class="cardMedia">
+                            <Button>
+                                <a class="text-light" href="https://nikitha2309.github.io/Parallax-Website/" target="_blank"
+                                    rel="noopener noreferrer"><i class="fa fa-link Mediaicons" /></i>Website</a>
+                            </Button>
+                            <Button>
+                                <a class="text-light" href="https://github.com/Nikitha2309/Parallax-Website" target="_blank"
+                                    rel="noopener noreferrer"><i class="fa fa-link Mediaicons" /></i>Source</a>
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
                 <h3 class="carddTitle">Year Book</h3>
                 <div class="cardd">
                     <img class='cardImg ord2' src="./assets/images/Year-Book.png" alt="Logo" />
@@ -322,96 +359,6 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="container">
-                <h3 class="carddTitle">MAIL ME</h3>
-                <div class="cardd">
-                    <img class='cardImg ord2' src="./assets/images/mailqudusayo.PNG" alt="Logo" />
-                    <div class='aboutCard ord1'>
-                        You can send me message anytime without even knowing my email address. I  built this some months ago for my pals to send me quick mails. Its of two copy, but i loved this most because its using <a href="http://map.google.com" target="_blank" rel="noopener noreferrer">Google Map</a> to showcase my own area on the map for ease of contacting me.
-                        <h4>NODEJS - EXPRESS - HANDLEBARS</h4>
-                        <div class="cardMedia">
-                            <Button>
-                                <a class="text-light" href="https://chatqudusayo.herokuapp.com/" target="_blank"
-                                    rel="noopener noreferrer"><i class="fa fa-link Mediaicons" /></i>Visit</a>
-                            </Button>
-                            <Button>
-                                <a class="text-light" href="https://github.com/Qudusayo/chat_qudusayo" target="_blank"
-                                    rel="noopener noreferrer"><i class="fa fa-link Mediaicons" /></i>Source</a>
-                            </Button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <h3 class="carddTitle">DAILY UI</h3>
-                <div class="cardd">
-                    <img class='cardImg ord2' src="./assets/images/dailyUi.PNG" alt="Logo" />
-                    <div class='aboutCard ord1'>
-                        This very website is just made mainly to showcase some of my DALIYUI challenge results which was given by <a href="http://dailyui.co" target="_blank" rel="noopener noreferrer">DailyUI Project</a> Just for Developers to practice more on their User Interface skills. Its fun building this because there are also contents in it which I didnt showcase here.
-                        <h4>HTML - SCSS - JAVASCRIPT</h4>
-                        <div class="cardMedia">
-                            <Button>
-                                <a class="text-light" href="https://100dailyui.netlify.app/" target="_blank"
-                                    rel="noopener noreferrer"><i class="fa fa-link Mediaicons" /></i>Visit</a>
-                            </Button>
-                            <Button>
-                                <a class="text-light" href="https://github.com/Qudusayo/100_Daily_UI" target="_blank"
-                                    rel="noopener noreferrer"><i class="fa fa-link Mediaicons" /></i>Source</a>
-                            </Button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <h3 class="carddTitle">QUOTES</h3>
-                <div class="cardd">
-                    <img class='cardImg ord2' src="./assets/images/randomgene.PNG" alt="Logo" />
-                    <div class='aboutCard ord1'>
-                        This is mainly a website i used to learn and test my redux skills. I managed to use redux for
-                        the first time, and I got using it successfully, so I do use redux in almost all of my react
-                        projects
-                        <h4>REACT - REDUX</h4>
-                        <div class="cardMedia">
-                            <Button>
-                                <a class="text-light" href="http://randomquotegene.netlify.com/" target="_blank"
-                                    rel="noopener noreferrer"><i class="fa fa-link Mediaicons" /></i>Visit</a>
-                            </Button>
-                            <Button>
-                                <a class="text-light" href="https://github.com/Qudusayo/randomQuoteGen" target="_blank"
-                                    rel="noopener noreferrer"><i class="fa fa-link Mediaicons" /></i>Source</a>
-                            </Button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <h3 class="carddTitle">CODEPEN</h3>
-                <div class="cardd">
-                    <img class='cardImg ord2' src="./assets/images/codepen.PNG" alt="Logo" />
-                    <div class='aboutCard ord1'>
-                        I got some works i posted on <a href="https://codepen.io">Codepen</a>. Some are there for fun,
-                        like my DUO BIRD, and some are there for real web work like the auto weather detector which
-                        dosent rely on the geolocation, but auto tracks you and determine your location in order to
-                        determine the weather of your area perfectly.
-
-                        <h4>CODEPEN - FUN - HTML - JS - REACT</h4>
-                        <div class="cardMedia">
-                            <Button>
-                                <a class="text-light" href="http://codepen.io/qudusayo" target="_blank"
-                                    rel="noopener noreferrer"><i class="fa fa-link Mediaicons" /></i>Visit</a>
-                            </Button>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <div class="container jumbotron">
-                <h1 class="jumborton-header">More</h1>
-                <p></p>
-                <p>
-                    <b>Open Source Contribuitions</b>: To know more about my open source contribuition works visit <a href="https://github.com/Nikitha2309" target="_blank" rel="noopener noreferrer">Github</a>
-                </p>
-
-                <!-- <p><a class="text-primary" href="https://github.com/qudusayo">More In my Github repository Here Not Deployed</a></p> -->
             </div>
         </div>
 
@@ -419,38 +366,49 @@
             <h1>Contact Me</h1>
             <div class="row">
                 <div class="col-md-5 m-auto texts">
-                    <b>You can notify me to help any time, I will always be ready to hook up with you anytime required
-                        .</b><br><br>
+                    <b>Did I say that I love to meet new people and interact with them ?? <br> Feel free to connect with me :) </b><br><br>
 
-                    <p>If you want to talk to me,<br /> You can find me at:</p>
+                    <p>You can find me at:</p>
                     <p><span>
-                            <i class="fa fa-envelope"></i>qqudusayo@gmail.com
+                            <i class="fa fa-envelope"></i>nikithareddy2309@gmail.com
                         </span></p>
                     <p><span>
-                            <i class="fa fa-phone"></i> +2347016412041
+                            <i class="fa fa-phone"></i> +91 9848670705
                         </span></p>
                     <p><span>
-                            <i class="fa fa-map-marker"></i> Ibadan, Nigeria
+                            <i class="fa fa-map-marker"></i> Hyderabad, India
                         </span></p>
                     <p><span class="media">
-                            <a target="_blank" href="https://twitter.com/qudusayo"><i class="fa fa-twitter"></i></a>
-                            <a target="_blank" href="https://github.com/qudusayo"><i class="fa fa-github"></i></a>
-                            <a target="_blank" href="https://qudusayoblog.netlify.app"><i class="fa fa-globe"></i></a>
-                            <a target="_blank" href="https://chatqudusayo.herokuapp.com"><i
-                                    class="fa fa-envelope"></i></a>
+                            <!-- <a target="_blank" href="mailto:nikithareddy2309@gmail.com"><i class="fa fa-envelope"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/nikitha2309/"><i class="fa fa-linkedin"></i></a>
+                            <a target="_blank" href="https://github.com/Nikitha2309"><i class="fa fa-github"></i></a>
+                            <a target="_blank" href="https://api.whatsapp.com/send?phone=+919848670705"><i class="fa fa-whatsapp green-color"></i></a>
+                            <a target="_blank" href="https://www.facebook.com/profile.php?id=100039995852083"><i class="fa fa-facebook"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/nikitha_2309/"><i class="fa fa-instagram"></i></a>
+                            <a target="_blank" href="https://twitter.com/Nikitha2309"><i class="fa fa-twitter"></i></a> -->
+                            <!-- <a target="_blank" href="https://twitter.com/Nikitha2309"><img src="https://img.icons8.com/fluent/48/000000/gmail.png" width="3.5%"/></a> -->
+                            <!-- <img src="https://img.icons8.com/fluent/48/000000/gmail.png"  width="5%">a href="#"></a></img> -->
+                            <a href="mailto:nikithareddy2309@gmail.com"><img class="cimg" src="https://img.icons8.com/fluent/48/000000/gmail.png"  width="100%"></a>
+                            <a href="https://www.linkedin.com/in/nikitha2309/"><img class="cimg" src="https://img.icons8.com/fluent/48/000000/linkedin.png"  width="100%"></a>
+                            <a href="https://github.com/Nikitha2309"><img class="cimg" src="https://img.icons8.com/fluent/48/000000/github.png"  width="100%"></a>
+                            <a href="https://api.whatsapp.com/send?phone=+919848670705"><img class="cimg" src="https://img.icons8.com/fluent/48/000000/whatsapp.png"  width="100%"></a>
+                            <a href="https://www.facebook.com/profile.php?id=100039995852083"><img class="cimg" src="https://img.icons8.com/fluent/48/000000/facebook-new.png"  width="100%"></a>
+                            <a href="https://www.instagram.com/nikitha_2309/"><img class="cimg"src="https://img.icons8.com/fluent/48/000000/instagram-new.png"  width="100%"></a>
+                            <a href="https://twitter.com/Nikitha2309"><img  class="cimg" src="https://img.icons8.com/fluent/48/000000/twitter.png"  width="100%"></a>
+                            <!-- <a href="#"><img src="https://img.icons8.com/fluent/48/000000/gmail.png"  width="100%"></a> -->
                         </span></p>
                     <p><span>
 
                         </span></p>
                 </div>
                 <div class="col-md-5 m-auto">
-                    <p>Or send Quick message: </p>
-                    <form action="#" data-netlify="true" method="POST">
-                        <input placeholder="Message Qudusayo" name="name" type="text">
-                        <input name="Subject" placeholder="I Loved This" type="text">
-                        <input name="email" placeholder="example@gmail.com" type="email">
-                        <textarea name="message" placeholder="I Love You" id="" cols="30" rows="10"></textarea>
-                        <button>Send <i class="fa fa-send"></i></button>
+                    <p>Send Quick message to connect with me: </p>
+                    <form action="https://script.google.com/macros/s/AKfycbxARibETkvRDdoeYYhvKNm7fZbMF5ytMJ8rZCEyj6wExp7AumvDqTkyleXKEjwe1skXFw/exec" data-netlify="true" method="POST">
+                        <input class="form_input" placeholder="Message Nikitha Reddy" name="name" type="text">
+                        <input class="form_input" name="Subject" placeholder="Subject" type="text">
+                        <input class="form_input" name="email" placeholder="example@gmail.com" type="email">
+                        <textarea class="form_input" name="message" placeholder="Hey Nikitha!! I would love to connect with you." id="" cols="30" rows="3"></textarea>
+                        <button class="form_input_send_button">Send <i class="fa fa-send"></i></button>
                     </form>
                 </div>
             </div>
