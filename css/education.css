@@ -184,6 +184,9 @@
     .timeline::before {
       left: 50px;
     }
+    .edu{
+      overflow-x: auto;
+    }
     .timeline .timeline-img {
       left: 50px;
     }

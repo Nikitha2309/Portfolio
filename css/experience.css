@@ -184,6 +184,11 @@
     .timeline::before {
       left: 50px;
     }
+
+    .exp {
+      overflow-x: auto;
+      /* font-size: 1em; */
+    }
     .timeline .timeline-img {
       left: 50px;
     }
