@@ -68,12 +68,14 @@
     }    
 }
 @media screen and (max-width: 580px){
-    .home .header{font-size:1.7em}
-    .home .mimg{display:block;top:50%;position:absolute;width:60vw;height:60vw}
-    .home .flex .typer{font-size:1em}
+    .home{height: 100%;}
+    .home .header{font-size:1em; top:100%;}
+    .home .mimg{display:block;top:10%;position:absolute;width:60vw;height:60vw}
+    .home .flex .typer{font-size:1em;top:70%;}
 }
 @media screen and (max-width: 320px){
-    .home .header{font-size:1em;top:5%}
-    .home .mimg{top:0%}
+    .home .header .himg{font-size:1em;top:40%}
+    .home .himg{width:25px;height:25px;}
+    .home .mimg{bottom: 100px;top:20%;}
     .home .flex .typer{font-size:1em}
 }
